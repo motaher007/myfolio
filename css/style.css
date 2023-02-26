@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+/* Commom CSS*/
+
+.container{
+
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/**Nav Bar starts here*/
+nav{
+background-color: #02918c;
+     
+}
+
+nav .logo{
+    width: 40%;
+}
+
+nav .menu{
+    width: 60% ;
+    text-align: center;
+}
+
+nav .menu ul li{
+    display: inline-block;
+
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 25px;
+    display: block;
+}
+/**Nav Bar ends here*/
+
+/* *Banner starts here*/
+
+#banner{
+    background-color: rgba(0, 0, 0, 0.349);
+    background-image: url(../image/MYFOLIO-backg.jpg);
+    background-blend-mode:multiply;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    color: white;
+
+}
+/* *Banner ends here*/
